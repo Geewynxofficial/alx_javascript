@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const numbers = ["value: 12"];
+const numbers = {"type": "object", "value": 12};
 
 const objects = [];
 
