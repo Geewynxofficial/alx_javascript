@@ -4,4 +4,4 @@ const myObject = {
 if (myObject.value === 12) {
     myObject.value = 89;
 }
-console.log(myObjects);
+console.log("myObjects");
