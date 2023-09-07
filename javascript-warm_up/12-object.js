@@ -1,19 +1,6 @@
 #!/usr/bin/node
-const numbers = {"type": "object", "value": 12};
-
-const objects = [];
-
-for (const number of numbers) {
-  const obj = {
-    "type": "object",
-    "value": number,
-  };
-
-  if (number === "value: 12") {
-    obj.value = 89;
-  }
-
-  objects.push(obj);
+const myObject = {"type": "object", "value": 12};
+if (myObject.value === 12) {
+    myObject.value = 89;
 }
-
-console.log(objects);
+console.log(myObjects);
