@@ -1,8 +1,8 @@
 #!/usr/bin/node
-const myObject = [42, 50 ,12];
+const myObject = ["value: 12"];
 for (let i = 0; i < myObject.length; i++) {
     if (myObject[i] === 12) {
-        myObject[i] = 89;
+        myObject[i] = ["value: 12"];
     }
 }
 console.log(myObject);
