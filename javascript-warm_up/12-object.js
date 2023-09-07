@@ -6,4 +6,4 @@ let myObject = {
 if (myObject.value === 12) {
     myObject.value = 89;
 }
-console.log("myObject");
+console.log(myObject);
