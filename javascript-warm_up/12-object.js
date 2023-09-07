@@ -1,4 +1,8 @@
 #!/usr/bin/node
-const myObject = ['C is fun', 'Python is cool', 'JavaScript is amazing', 'value: 12'];
-myObject.splice(3, 1, 'value: 89');
+const myObject = [42, 50 ,12];
+for (let i = 0; i < myObject.length; i++) {
+    if (myObject[i] === 12) {
+        myObject[i] = 89;
+    }
+}
 console.log(myObject);
