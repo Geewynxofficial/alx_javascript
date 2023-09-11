@@ -2,7 +2,5 @@
 function add(number1, number2) {
   return number1 + number2;
 }
-add(4, 85);
-add(93, -4);
-add(0, 89);
-console.log(add);
+const number = add(4, 85);
+console.log(number);
