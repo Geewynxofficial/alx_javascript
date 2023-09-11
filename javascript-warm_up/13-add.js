@@ -1,8 +1,8 @@
 #!/usr/bin/node
-function add(number1, number2){
+function object (number1, number2){
   return number1 + number2;
 };
 
-console.log(add(4, 85));
+console.log(object(4, 85));
 
 
