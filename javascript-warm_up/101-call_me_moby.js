@@ -1,9 +1,7 @@
-function executeTimeFunction(x, theFunction) {
+function callMeMoby(x, theFunction) {
     for (let i = 0; i < x; i++){
         theFunction();
     }
 }
-const callMeMoby = function () {
-    console.log('Where I am!');
-}
-executeTimeFunction(5, callMeMoby);
+
+module.exports = {callMeMoby};
