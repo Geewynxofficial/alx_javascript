@@ -3,3 +3,7 @@ function executeTimeFunction(x, theFunction) {
         theFunction();
     }
 }
+function callMeMoby() {
+    console.log('Where I am!');
+}
+executeTimeFunction(5, callMeMoby);
