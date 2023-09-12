@@ -1,4 +1,5 @@
 function incr(number) {
-    return number + 1;
+    number++;
+    number()
 }
 module.exports = {incr};
