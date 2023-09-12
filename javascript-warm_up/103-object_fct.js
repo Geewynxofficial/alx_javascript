@@ -2,4 +2,9 @@ function incr(number) {
     number++;
     number()
 }
-module.exports = {incr};
+function myObject(number, value) {
+    number++;
+    value(number);
+}
+
+module.exports = {myObject};
