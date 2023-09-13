@@ -6,5 +6,4 @@ function myObject(number, value) {
     number++;
     value(number);
 }
-
 module.exports = {myObject};
