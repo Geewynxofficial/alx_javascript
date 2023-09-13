@@ -3,9 +3,8 @@ let myObject = {
     type: "object", 
     value: 12
 };
-function incr(value) {
+function incr() {
   myObject++;
-  value();
 }
 
 
