@@ -5,6 +5,7 @@ let myObject = {
 
 function incr(value) {
   incr++;
+  value();
 }
 incr(myObject.value);
 
