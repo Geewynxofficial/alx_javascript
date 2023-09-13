@@ -3,7 +3,7 @@ let myObject = {
     type: "object", 
     value: 12
 };
-function incr() {
+function incr(myObject) {
   myObject++;
 }
 
