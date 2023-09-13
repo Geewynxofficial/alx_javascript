@@ -1,13 +1,15 @@
 
 let myObject = {
     type: "object", 
-    value: 12
+    value: 12,
+    incr: incr
 };
-function incr(myObject) {
-  myObject++;
+function incr(number) {
+  number++;
 }
 
-
-incr(myObject.value);
+for (let i =0; i < 3; i++){
+myObject.value = incr(myObject.value);
+}
 
 module.exports = {myObject};
