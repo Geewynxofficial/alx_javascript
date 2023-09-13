@@ -12,5 +12,5 @@ function incr(value) {
 for (let i = 0; i < 3; i++){
 myObject.value = incr(myObject.value);
 }
-
+console.log(myObject);
 module.exports = {myObject};
