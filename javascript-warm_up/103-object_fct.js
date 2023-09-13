@@ -1,9 +1,6 @@
-function incr(number) {
-    number++;
-    number()
+function incr(value) {
+  value++;
 }
-function myObject(number, value) {
-    number++;
-    value(number);
-}
+incr(myObject.value);
+
 module.exports = {myObject};
