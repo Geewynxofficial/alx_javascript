@@ -1,16 +1,16 @@
-function incr(value) {
-  return value + 1;
-}
+const myObject = {
+  type: 'object',
+  value: 12
+};
+console.log(myObject);
 
- myObject = {
-    type: "object", 
-    value: 12,
-    incr: incr
+myObject.incr = function() {
+
 };
 
-
-for (let i = 0; i < 3; i++){
-myObject.value = incr(myObject.value);
-}
+myObject.incr();
 console.log(myObject);
-module.exports = {myObject};
+myObject.incr();
+console.log(myObject);
+myObject.incr();
+console.log(myObject);
