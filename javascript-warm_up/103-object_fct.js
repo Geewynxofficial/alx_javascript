@@ -1,4 +1,4 @@
-const myObject = {
+let myObject = {
     type: 'object',
     value: 12
   };
@@ -7,7 +7,7 @@ const myObject = {
 
   myObject.incr = function() {
     this.value++;
-  };
+};
 
 myObject.incr();
 console.log(myObject); 
