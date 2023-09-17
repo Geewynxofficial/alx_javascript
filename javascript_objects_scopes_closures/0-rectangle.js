@@ -1,3 +1,4 @@
-let Rect = class Rectangle {
+const rect = class Rectangle {
 
 };
+console.log(rect);
