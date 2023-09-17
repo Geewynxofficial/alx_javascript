@@ -1,7 +1,10 @@
 class Rectangle {
     constructor() {
 
-    } 
+    }
+    toString() {
+        return 'Rectangle {}';
+    }
 };
-const rect = new Rectangle();
-console.log(rect);
+console.log(new Rectangle().toString());
+console.log(Rectangle.toString());
