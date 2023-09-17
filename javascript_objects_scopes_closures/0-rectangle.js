@@ -1,6 +1,6 @@
 const rect = class Rectangle {
-    Rectangle() {
-        
+    constructor() {
+
     } 
 };
 console.log(rect);
