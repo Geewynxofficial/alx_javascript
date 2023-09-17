@@ -1,3 +1,3 @@
-const Rect = class Rectangle {
+let Rect = class Rectangle {
 
 };
