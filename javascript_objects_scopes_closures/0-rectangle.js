@@ -1,3 +1,3 @@
-const Rectangle = class Rectangle {
+class Rectangle {
 
 };
