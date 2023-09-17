@@ -1,5 +1,3 @@
-class Rectangle {
-    Rectangle() {
+const Rectangle = class Rectangle {
 
-    }
-}
+};
