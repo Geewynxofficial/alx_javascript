@@ -1,6 +1,6 @@
 const rect = class Rectangle {
-Rectangle (){
-
-} 
+    Rectangle() {
+        
+    } 
 };
 console.log(rect);
