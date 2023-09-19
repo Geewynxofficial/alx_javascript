@@ -2,9 +2,7 @@ class Rectangle {
     constructor() {
 
     }
-    toString() {
-        return 'Rectangle {}';
-    }
-};
-console.log(new Rectangle().toString());
-console.log(Rectangle.toString());
+}
+const rectangle = new Rectangle();
+console.log(rectangle);
+console.log(Rectangle.constructor());
