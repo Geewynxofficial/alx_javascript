@@ -19,3 +19,6 @@ const r3 = new Rectangle(3);
 console.log(r3);
 console.log(r3.width);
 console.log(r3.height);
+module.exports = {r1};
+module.exports = {r2};
+module.exports = {r3};
