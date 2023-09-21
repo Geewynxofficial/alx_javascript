@@ -3,6 +3,6 @@ class Rectangle {
     Rectangle 
     }
 }
-const rect = new Rectangle();
-console.log(rect);
-console.log(Rectangle.constructor());
+const r1 = new Rectangle();
+console.log(r1);
+console.log(r1.constructor);
