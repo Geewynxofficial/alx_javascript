@@ -1,9 +1,10 @@
 class Rectangle {
   constructor() {
-    
+
   }
 }
 
-const r = new Rectangle();
-console.log(r)
-console.log(Rectangle);
+const r1 = new Rectangle();
+console.log(r1);
+console.log(r1.constructor);
+module.exports = {Rectangle};
