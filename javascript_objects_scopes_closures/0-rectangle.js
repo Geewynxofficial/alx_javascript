@@ -1,8 +1,8 @@
 class Rectangle {
-    constructor() {
-
+  constructor(Rectangle) {
+    Rectangle 
     }
 }
-const rectangle = new Rectangle();
-console.log(rectangle);
+const rect = new Rectangle();
+console.log(rect);
 console.log(Rectangle.constructor());
