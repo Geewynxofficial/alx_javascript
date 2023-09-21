@@ -1,8 +1,9 @@
 class Rectangle {
-  constructor(Rectangle) {
-    Rectangle 
-    }
+  constructor() {
+    
+  }
 }
-const r1 = new Rectangle();
-console.log(r1);
-console.log(r1.constructor);
+
+const r = new Rectangle();
+console.log(r)
+console.log(Rectangle);
