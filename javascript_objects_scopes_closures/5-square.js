@@ -1,23 +1,11 @@
-class Square {
-    constructor(height, width) {
-        this.height = height;
-        this.width = width;
-    }
+#!/usr/bin/node
 
-    area() {
-        return this.height * this.width;
-    }
-}
+const Rectangle = require('./4-rectangle'); // Imports the Rectangle class from 4-rectangle.js
 
 class Square extends Rectangle {
-    constructor(size) {
-        super(size, size);
-        this.name = "Square";
-    }
-
-    get area() {
-        return this.height * this.width;
-    }
+  constructor(size) {
+    super(size, size);
+  }
 }
 
-module.exports = Rectangle;
+module.exports = Square; // Exports the Square class
