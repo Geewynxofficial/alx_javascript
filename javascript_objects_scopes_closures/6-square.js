@@ -1,5 +1,16 @@
 #!/usr/bin/node
 const Square = require('./5-square');
+// class Rectangle {
+//     constructor (height, width) {
+//         this.height = height;
+//         this.width = width;
+//     }
+
+//     area () {
+//         return this.height * this.width;
+//     }
+// }
+
 class Square extends Rectangle {
     constructor(size) {
         super(size, size)
