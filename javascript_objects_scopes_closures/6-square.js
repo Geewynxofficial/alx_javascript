@@ -30,3 +30,4 @@ class Square extends Rectangle {
     }
 }
 module.exports = Square;
+const Square = require('./6-square');
