@@ -22,10 +22,10 @@ class Square extends Rectangle {
             c = 'X';
         }
         for (let i = 0; i < this.height; i++) {
-            let row = '';
-            for (let j = 0; j < this.width; j++) {
-                row += c;
-            }
+            // let row = '';
+            // for (let j = 0; j < this.width; j++) {
+            //     row += c;
+            // }
             console.log(this.width);
         }
     }
