@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const Square = require('./5-square');
+// const Square = require('./5-square');
 // class Rectangle {
 //     constructor (height, width) {
 //         this.height = height;
@@ -30,5 +30,3 @@ class Square extends Rectangle {
         }
     }
 }
-module.exports = Square;
-const Square = require('./6-square');
