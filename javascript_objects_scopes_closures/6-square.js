@@ -22,11 +22,11 @@ class Square extends SquareR {
             c = 'X';
         }
         for (let i = 0; i < this.height; i++) {
-            let row = '';
+            let g = '';
             for (let j = 0; j < this.width; j++) {
-                row += c;
+                g += c;
             }
-            console.log(row);
+            console.log(g);
         }
     }
 }
